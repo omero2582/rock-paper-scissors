@@ -1,0 +1,48 @@
+.playerPick{
+   width: 200px;
+   height: 200px;
+   font-size: 26px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items:   flex-end;
+    height: 400px;
+    gap: 45px;
+}
+
+.game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.output{
+    margin-top: 40px;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    /* width: 800px; */
+    height: 200px;
+}
+
+.mainOutput{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 500px; 
+}
+
+.picks{
+    display: flex;
+    justify-content: space-between;
+}
+
+.output p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.score{
+    width: 200px;
+}
