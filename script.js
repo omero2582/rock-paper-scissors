@@ -56,7 +56,7 @@ function checkKey(e){
   console.log( playRound(this.id, computerPlay()) );
 
   if (cpuWins == 3 || p1Wins == 3){
-    outputGameEnd.textContent = 'game over?';
+    outputGameEnd.textContent = 'Game Over.';
     p1Wins = 0;
     cpuWins = 0;
     }
@@ -74,7 +74,7 @@ function setBaseTexts(){
     outputScoreP1.textContent = 'p1:';
     outputScoreCpu.textContent = 'cpu:';
     outputResult.textContent = 'Result';
-    outputGameEnd.textContent = 'GameEnd';
+    outputGameEnd.textContent = 'Running...';
 }
 
 game2();

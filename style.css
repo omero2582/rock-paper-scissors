@@ -23,19 +23,20 @@
     display: flex;
     justify-content: center;
     /* width: 800px; */
-    height: 200px;
+    height: 140px;
 }
 
 .mainOutput{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 500px; 
 }
 
 .picks{
     display: flex;
     justify-content: space-between;
+    font-size: 23px;
 }
 
 .output p{
@@ -45,4 +46,15 @@
 
 .score{
     width: 200px;
+}
+
+.gameEndOutput{
+    font-size: 22px;
+    margin: auto;
+}
+
+.bottomOutput{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
